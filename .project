@@ -28,21 +28,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>RTE/Device/Montana/SEGGER_RTT.c</name>
-			<type>1</type>
-			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/source/segger/SEGGER_RTT.c</locationURI>
-		</link>
-		<link>
-			<name>RTE/Device/Montana/SEGGER_RTT_ASM_ARMv7M.S</name>
-			<type>1</type>
-			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/source/segger/SEGGER_RTT_ASM_ARMv7M.S</locationURI>
-		</link>
-		<link>
-			<name>RTE/Device/Montana/SEGGER_RTT_printf.c</name>
-			<type>1</type>
-			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/source/segger/SEGGER_RTT_printf.c</locationURI>
-		</link>
-		<link>
 			<name>RTE/Device/Montana/ble_bass.c</name>
 			<type>1</type>
 			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/source/ble_bass.c</locationURI>
@@ -155,7 +140,7 @@
 		<link>
 			<name>RTE/Device/Montana/swmTrace_wrapper.c</name>
 			<type>1</type>
-			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/source/segger/swmTrace_wrapper.c</locationURI>
+			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/source/uart/swmTrace_wrapper.c</locationURI>
 		</link>
 		<link>
 			<name>RTE/Device/Montana/trim.c</name>
@@ -171,6 +156,11 @@
 			<name>RTE/Device/Montana/uart.c</name>
 			<type>1</type>
 			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/source/uart.c</locationURI>
+		</link>
+		<link>
+			<name>RTE/Device/Montana/uart_common.c</name>
+			<type>1</type>
+			<locationURI>$%7Bcmsis_pack_root%7D/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/source/uart_common/uart_common.c</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

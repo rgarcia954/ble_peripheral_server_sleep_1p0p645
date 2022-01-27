@@ -59,7 +59,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -71,7 +71,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -87,7 +87,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -106,7 +106,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -124,7 +124,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -136,7 +136,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -251,7 +251,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -263,7 +263,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -279,7 +279,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -298,7 +298,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -316,7 +316,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -328,7 +328,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -443,7 +443,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -455,7 +455,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -471,7 +471,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -491,7 +491,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -509,7 +509,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -521,7 +521,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -636,7 +636,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -648,7 +648,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -664,7 +664,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -684,7 +684,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -702,7 +702,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>
@@ -714,7 +714,7 @@
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/ble_abstraction/ble_profiles/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/HAL/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/segger&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cmsis_pack_root}/ONSemiconductor/Montana/1.0.645/firmware/source/lib/swmTrace/include/uart_common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/Device/Montana&quot;"/>
 								</option>

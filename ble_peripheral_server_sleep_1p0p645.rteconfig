@@ -58,18 +58,15 @@
       <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/power_modes.c"/>
       <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/go_to_sleep_asm.S"/>
     </component>
-    <component Cclass="Device" Cgroup="Libraries" Csub="SwmTrace" Cvariant="swmTrace_RTT_NB_Source" Cvendor="ONSemiconductor" Cversion="1.0.645" deviceDependent="1">
+    <component Cclass="Device" Cgroup="Libraries" Csub="SwmTrace" Cvariant="swmTrace_UART_NB_Source" Cvendor="ONSemiconductor" Cversion="1.0.645" deviceDependent="1">
       <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
-      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/segger/SEGGER_RTT.c"/>
-      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/segger/SEGGER_RTT_ASM_ARMv7M.S"/>
-      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/segger/SEGGER_RTT_printf.c"/>
       <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/swmTrace.c"/>
-      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/segger/swmTrace_wrapper.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/uart_common/uart_common.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/uart/swmTrace_wrapper.c"/>
+      <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/uart_common/uart_common.h"/>
       <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/swmTrace_api.h"/>
       <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/swmTrace_int.h"/>
       <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/swmTrace_options.h"/>
-      <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/segger/SEGGER_RTT.h"/>
-      <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/segger/SEGGER_RTT_Conf.h"/>
     </component>
     <component Cclass="Device" Cgroup="Startup" Csub="Startup" Cvariant="source" Cvendor="ONSemiconductor" Cversion="1.0.645" deviceDependent="1">
       <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
