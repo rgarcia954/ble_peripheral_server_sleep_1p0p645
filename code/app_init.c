@@ -17,6 +17,8 @@
 
 #include <app.h>
 
+#define XTAL32K_CTRIM_21P6PF ((uint32_t)(0x36U << ACS_XTAL32K_CTRL_CLOAD_TRIM_Pos))
+
 static uint32_t traceOptions[] = {
         SWM_LOG_LEVEL_INFO,             /* In all cases log info messages */
         SWM_UART_RX_PIN | UART_RX_GPIO, /* Set RX pin for cases when using UART */
@@ -293,8 +295,8 @@ void App_Clock_Config(void)
     Sys_Clocks_DividerConfig(UART_CLK, SENSOR_CLK, USER_CLK);
 
     /* Enable XTAL32k */
-    ACS->XTAL32K_CTRL = XTAL32K_XIN_CAP_BYPASS_DISABLE | XTAL32K_NOT_FORCE_READY | XTAL32K_CTRIM_8P8PF |
-                        XTAL32K_ITRIM_160NA | XTAL32K_ENABLE | XTAL32K_AMPL_CTRL_ENABLE;
+    ACS->XTAL32K_CTRL = XTAL32K_XIN_CAP_BYPASS_DISABLE | XTAL32K_NOT_FORCE_READY | XTAL32K_CTRIM_21P6PF |
+    		XTAL32K_ITRIM_160NA | XTAL32K_ENABLE | XTAL32K_AMPL_CTRL_ENABLE;
 
     /* Wait for XTAL32k to be configured */
     while (ACS->XTAL32K_CTRL && ((0x1U << ACS_XTAL32K_CTRL_READY_Pos) != XTAL32K_OK));

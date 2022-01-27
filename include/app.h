@@ -192,17 +192,17 @@ enum appm_msg
  */
 #define VCC_BUCK_LDO_CTRL               VCC_BUCK
 
-/* The GPIO pin to use for TX when using the UART mode */
-#define UART_TX_GPIO                    (6)
+/** The GPIO pin to use for TX when using the UART mode */
+#define UART_TX_GPIO                    (5)
 
-/* The GPIO pin to use for RX when using the UART mode */
-#define UART_RX_GPIO                    (5)
+/** The GPIO pin to use for RX when using the UART mode */
+#define UART_RX_GPIO                    (6)
 
 /* The selected baud rate for the application when using UART mode */
 #define UART_BAUD       				(115200)
 
 /* GPIO number that is used for easy re-flashing (recovery mode) */
-#define RECOVERY_GPIO                   0
+#define RECOVERY_GPIO                   7
 
 /* GPIO used to output the sysclock */
 #define SYSCLK_GPIO                     2
@@ -219,7 +219,7 @@ enum appm_msg
 /* GPIO used to indicate run and power mode
  *   - Run mode: low
  *   - Power mode (sleep or storage): high */ 
-#define POWER_MODE_GPIO                 7
+#define POWER_MODE_GPIO                 0
 
 /* Default LSAD channel for SetTxPower */
 #define LSAD_TXPWR_DEF                  1
