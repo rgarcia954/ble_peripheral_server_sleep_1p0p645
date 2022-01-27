@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration xmlns:xs="http:/www.w3.org/2001/XMLSchema-instance">
+  <device Dclock="48000000" Dcore="Cortex-M33" DcoreVersion="r0p4" Dendian="Little-endian" Dfamily="Montana Series" Dfpu="SP_FPU" Dmpu="MPU" Dname="Montana" Dvendor="ONSemiconductor:141" Pname="">
+    <url>http:/www.onsemi.com</url>
+    <package info="ON Semiconductor Montana Device Pack" name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
+  </device>
+  <toolchain Tcompiler="GCC" Toutput="exe"/>
+  <apis>
+    <api Capiversion="1.0.0" Cclass="Device" Cgroup="Bluetooth Core" Cvendor="ONSemiconductor" Cversion="1.0.0" exclusive="0">
+      <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
+      <file category="include" name="firmware/include/ble/"/>
+      <file category="include" name="firmware/include/ble/profiles/"/>
+    </api>
+  </apis>
+  <components>
+    <component Capiversion="1.0.0" Cclass="Device" Cgroup="Bluetooth Core" Csub="BLE Abstraction" Cvendor="ONSemiconductor" Cversion="1.0.645" deviceDependent="1">
+      <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
+      <file category="header" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/include/ble_abstraction.h" version="1.0.0"/>
+      <file category="header" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/include/ble_gap.h" version="1.0.0"/>
+      <file category="header" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/include/ble_gatt.h" version="1.0.0"/>
+      <file category="header" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/include/msg_handler.h" version="1.0.0"/>
+      <file category="header" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/include/bondlist.h" version="1.0.0"/>
+      <file category="header" condition="BASS_Profile_Condition" deviceDependent="1" name="firmware/source/ble_abstraction/ble_profiles/include/ble_bass.h" version="1.0.0"/>
+      <file category="source" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/source/stubprf.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/source/ble_gap.c" version="1.0.0"/>
+      <file category="source" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/source/ble_gatt.c" version="1.0.0"/>
+      <file category="source" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/source/msg_handler.c" version="1.0.0"/>
+      <file category="source" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/source/ble_protocol_support.c" version="1.0.0"/>
+      <file category="source" deviceDependent="1" name="firmware/source/ble_abstraction/ble_common/source/bondlist.c" version="1.0.0"/>
+      <file category="source" condition="BASS_Profile_Condition" deviceDependent="1" name="firmware/source/ble_abstraction/ble_profiles/source/ble_bass.c" version="1.0.0"/>
+    </component>
+    <component Capiversion="1.0.0" Cclass="Device" Cgroup="Bluetooth Core" Csub="BLE Stack" Cvariant="release" Cvendor="ONSemiconductor" Cversion="1.0.645" deviceDependent="1">
+      <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
+      <file category="library" deviceDependent="1" name="lib/ble_core/Release/libblelib.a"/>
+    </component>
+    <component Cclass="Device" Cgroup="Bluetooth Profiles" Csub="BASS" Cvariant="release" Cvendor="ONSemiconductor" Cversion="1.0.645" deviceDependent="1">
+      <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
+      <file category="doc" deviceDependent="1" name="documentation/ceva/RW-BLE-PRF-BAS-IS.pdf"/>
+      <file category="library" deviceDependent="1" name="lib/ble_profiles/Release/libbass.a"/>
+    </component>
+    <component Cclass="Device" Cgroup="Libraries" Csub="Calibrate" Cvariant="source" Cvendor="ONSemiconductor" Cversion="1.0.645" deviceDependent="1">
+      <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/calibratelib/code/calibrate.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/calibratelib/code/calibrate_clock.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/calibratelib/code/calibrate_power.c"/>
+    </component>
+    <component Cclass="Device" Cgroup="Libraries" Csub="HAL" Cvariant="source" Cvendor="ONSemiconductor" Cversion="1.0.645" deviceDependent="1">
+      <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
+      <file category="include" deviceDependent="1" name="firmware/source/lib/HAL/include/"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/clock.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/flash_copier.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/sassert.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/trim.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/uart.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/lsad.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/rffe.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/trim_vddif.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/power_modes.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/HAL/source/go_to_sleep_asm.S"/>
+    </component>
+    <component Cclass="Device" Cgroup="Libraries" Csub="SwmTrace" Cvariant="swmTrace_RTT_NB_Source" Cvendor="ONSemiconductor" Cversion="1.0.645" deviceDependent="1">
+      <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/segger/SEGGER_RTT.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/segger/SEGGER_RTT_ASM_ARMv7M.S"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/segger/SEGGER_RTT_printf.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/swmTrace.c"/>
+      <file category="source" deviceDependent="1" name="firmware/source/lib/swmTrace/source/segger/swmTrace_wrapper.c"/>
+      <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/swmTrace_api.h"/>
+      <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/swmTrace_int.h"/>
+      <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/swmTrace_options.h"/>
+      <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/segger/SEGGER_RTT.h"/>
+      <file category="header" deviceDependent="1" name="firmware/source/lib/swmTrace/include/segger/SEGGER_RTT_Conf.h"/>
+    </component>
+    <component Cclass="Device" Cgroup="Startup" Csub="Startup" Cvariant="source" Cvendor="ONSemiconductor" Cversion="1.0.645" deviceDependent="1">
+      <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
+      <file category="include" deviceDependent="1" name="firmware/include/"/>
+      <file category="source" condition="GCC_Condition" deviceDependent="1" name="firmware/source/lib/cmsis/source/sbrk.c"/>
+      <file category="source" condition="GCC_Condition" deviceDependent="1" name="firmware/source/lib/cmsis/source/start.c"/>
+      <file attr="config" category="source" deviceDependent="1" name="firmware/source/lib/cmsis/source/system_montana.c" version="1.0.0"/>
+      <file attr="config" category="source" condition="GCC_Condition" deviceDependent="1" name="firmware/source/lib/cmsis/source/GCC/startup.S" version="1.0.0"/>
+      <file attr="config" category="linkerScript" condition="GCC_Condition" deviceDependent="1" name="firmware/configuration/GCC/sections.ld" version="1.0.0"/>
+      <file attr="config" category="header" deviceDependent="1" name="firmware/source/lib/drivers/RTE_config/RTE_Device.h" version="1.0.0"/>
+    </component>
+  </components>
+  <packages useAllLatestPacks="0">
+    <package name="Montana" url="www.onsemi.com" vendor="ONSemiconductor" version="1.0.645" versionMatchMode="fixed"/>
+  </packages>
+</configuration>
